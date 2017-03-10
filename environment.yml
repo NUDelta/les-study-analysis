@@ -1,4 +1,4 @@
-name: analysis
+name: les
 channels:
 - conda-forge
 - defaults
