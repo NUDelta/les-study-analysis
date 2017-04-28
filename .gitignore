@@ -196,3 +196,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# User added 
+config.json
+data/
