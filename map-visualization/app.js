@@ -90,19 +90,19 @@ var map, heatmap;
 
 function initMapWithPoints() {
     $.ajax({
-        url: './data/pathData.json',
+        url: './data/evanston_runkeeper.json',
         async: true,
         dataType: 'json',
         success: function(data) {
             // store data by user
             var pointsByUser = {},
-                startTime = 1491454800,
-                endTime = 1492146000,
+                startTime = null, // 1491454800,
+                endTime = null, // 1492146000,
                 routeCount = 0;
 
             for (var i in data) {
                 // check if data between desired measuring start, end time
-                if (data[i].lastModified > startTime && data[i].lastModified <= endTime) {
+                // if (data[i].lastModified > startTime && data[i].lastModified <= endTime) {
                     // init key in object if not there
                     if (!(data[i].user in pointsByUser)) {
                         pointsByUser[data[i].user] = [];
@@ -120,7 +120,7 @@ function initMapWithPoints() {
 
                         pointsByUser[data[i].user] = pointsByUser[data[i].user].concat(currentPoints);
                     }
-                }
+                // }
             }
 
             // combine data into one array
