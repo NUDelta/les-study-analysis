@@ -200,3 +200,4 @@ $RECYCLE.BIN/
 # User added 
 config.json
 data/
+*.csv
