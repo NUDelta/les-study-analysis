@@ -201,4 +201,5 @@ $RECYCLE.BIN/
 config.json
 data/
 *.csv
+*.xlsx
 credential.json
