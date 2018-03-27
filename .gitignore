@@ -201,3 +201,4 @@ $RECYCLE.BIN/
 config.json
 data/
 *.csv
+credential.json
