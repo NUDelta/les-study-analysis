@@ -203,3 +203,5 @@ data/
 *.csv
 *.xlsx
 credential.json
+*.pdf
+*.png
