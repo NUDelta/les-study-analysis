@@ -12,4 +12,4 @@ Open Terminal and navigate to the cloned repository. Run `conda env create -n le
 If you install new packages to use, please run `conda env export | grep -v "^prefix: " > environment.yml` to create a new environment.yml file with the packages included. 
 
 ### Running and Modifying Code
-All analysis is done in Jupyter notebooks. To start the notebook, run `jupyter notebook les-study-analysis.ipynb` and open your web browser.
+All analysis is done in Jupyter notebooks. To start the notebook, run `jupyter notebook les-study-analysis.ipynb` and open your web browser
