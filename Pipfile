@@ -12,6 +12,7 @@ scipy = "*"
 tqdm = "*"
 gspread = "*"
 "oauth2client" = "*"
+gmaps = "*"
 
 [dev-packages]
 
