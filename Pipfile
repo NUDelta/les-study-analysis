@@ -13,6 +13,8 @@ tqdm = "*"
 gspread = "*"
 "oauth2client" = "*"
 gmaps = "*"
+pymongo = "*"
+geopy = "*"
 
 [dev-packages]
 
