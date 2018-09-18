@@ -197,7 +197,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# User added 
+# User added
 config.json
 data/
 *.csv
@@ -205,3 +205,4 @@ data/
 credential.json
 *.pdf
 *.png
+*.xlsm

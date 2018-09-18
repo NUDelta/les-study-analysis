@@ -11,12 +11,12 @@ seaborn = "*"
 scipy = "*"
 tqdm = "*"
 gspread = "*"
-"oauth2client" = "*"
 gmaps = "*"
 pymongo = "*"
 geopy = "*"
+"oauth2client" = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.6"
+python_version = "3.7"
